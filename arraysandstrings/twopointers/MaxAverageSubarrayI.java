@@ -18,7 +18,6 @@ Output: 5.00000
 
  */
 
-class Solution {
 
   public double findMaxAverage(int[] nums, int k) {
     double current = 0.00;
@@ -37,4 +36,4 @@ class Solution {
 
     return maxAverageValue;
   }
-}
+

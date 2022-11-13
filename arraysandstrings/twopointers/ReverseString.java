@@ -26,7 +26,6 @@ Constraints:
  */
 
 //Solution 1 - Use a stack
-class Solution {
 
   public void reverseString(char[] s) {
     Stack<Character> newStack = new Stack<Character>();
@@ -39,11 +38,10 @@ class Solution {
       s[i] = newStack.pop();
     }
   }
-}
+
 
 //Solution 2 - Two Pointers
 
-class Solution {
 
   public void reverseString(char[] s) {
     int left = 0;
@@ -57,4 +55,4 @@ class Solution {
       left++;
     }
   }
-}
+
