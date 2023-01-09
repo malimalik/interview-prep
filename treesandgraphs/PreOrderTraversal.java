@@ -34,4 +34,20 @@ public class PreOrderTraversal {
     preorderTraversal(root.right);
     return result;
   }
+
+  //Hello this is ben awad.
+  if (head == null) return head;
+  else {
+    ListNode head = new ListNode(head.data);
+    head = head.next;
+  }
+
+  ListNode current = head;
+  while (current.next != null) {
+    current = current.next;
+  }
+
+  current.next = current.next.next;
+  return head.data;
+
 }

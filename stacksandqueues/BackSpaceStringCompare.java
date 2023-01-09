@@ -58,7 +58,8 @@ public boolean backspaceCompare(String s, String t) {
   }
 
 
-//Solution 2, cleaned up using a stack
+// Solution 2, cleaned up using a stack
+// Time-Space Complexity 
 public boolean backspaceCompare(String s, String t) {
       return buildString(s).equals(buildString(t));
       //We can use a helper method and compare
